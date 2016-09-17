@@ -7,11 +7,11 @@ Gem::Specification.new do |spec|
   spec.name          = "ahihi"
   spec.version       = Ahihi::VERSION
   spec.authors       = ["Anh Nguyen"]
-  spec.email         = ["anhn@asiantech.vn"]
+  spec.email         = ["cauut2117610@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Simple command line tool to define your work.}
+  spec.description   = %q{Simple command line tool to define your work.}
+  spec.homepage      = "https://github.com/Nguyenanh/ahihi"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -30,4 +30,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_dependency 'thor'
 end
